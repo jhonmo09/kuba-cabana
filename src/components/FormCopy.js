@@ -241,7 +241,7 @@ const FormCopy = ({ onClose }) => {
     // Agregar la función sendEmail aquí
     function sendEmail() {
       const templateParams = {
-        to: "miami@squeezzed.io",
+        to: "jhonmo09@gmail.com",
         subject: "Asunto del correo electrónico",
         name: updatedFormData.Name,
         last: updatedFormData.Last,
@@ -262,7 +262,7 @@ const FormCopy = ({ onClose }) => {
       emailjs
         .send(
           "service_2nej5df",
-          "template_dm36zwp",
+          "template_kwqfkmj",
           templateParams,
           "n_gDgigdiinRNydOg"
         )

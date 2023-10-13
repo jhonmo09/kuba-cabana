@@ -1,111 +1,161 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <style>
-        .ExternalClass * {
-            line-height: 100%;
-        }
+      .ExternalClass * {
+        line-height: 100%;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <table align="center" width="100%" style="font-family: Arial, sans-serif; max-width: 800px;">
-        <tr>
-            <td>
-                <h1 style="color: #191182;">*{{name}} {{last}}*, you have received a reservation request</h1>
-                <table align="center" width="100%"
-                    style="background-color: #e8f8fd; border-radius: 20px; padding: 2vw; max-width: 800px;">
-                    <tr>
-                        <td>
-                            <table align="center" width="100%"
-                                style="background-color: white; border-radius: 20px; padding: 2vw;">
-                                <tr>
-                                    <td align="center">
-                                        <img style="width: 15vw; max-width: 100px; height: auto;"
-                                            src="https://firebasestorage.googleapis.com/v0/b/squeezzed-fa161.appspot.com/o/logos%2Fmeraki_logo.png?alt=media&amp;token=29930539-ce38-4ca6-8f45-4661c2c18bc6"
-                                            alt="Logo">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <table align="center" width="100%"
-                                            style="background-color: #f1f1f1; border-top: 4vw solid #493DDA; padding: 2vw; border-bottom: 1px solid white; border-radius: 20px;">
-                                            <tr>
-                                                <td>
-                                                    <table align="center" width="100%"
-                                                        style="padding: 1vw; gap: 2vw; border-bottom: 6px solid white;">
-                                                        <tr>
-                                                            <td colspan="2"
-                                                                style="padding: 1vw 0; border-bottom: 6px solid white;">
-                                                                <strong>Event type:</strong> {{eventType}}</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td colspan="2" align="center">
-                                                                <h3>Event Characteristics</h3>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Party Size:</strong></td>
-                                                            <td>{{partySize}}</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Date:</strong></td>
-                                                            <td>{{date}} {{time}}</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Alternative Date:</strong></td>
-                                                            <td>{{date}}</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Special Request:</strong></td>
-                                                            <td>{{special}}</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Budget: $</strong></td>
-                                                            <td>{{budget}}</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <table align="center" width="100%"
-                                                        style="border-radius: 20px; padding: 1vw; gap: 2vw;">
-                                                        <tr>
-                                                            <td colspan="2" align="center">
-                                                                <h3>Data Register</h3>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>First name:</strong></td>
-                                                            <td>{{name}}</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Last name:</strong></td>
-                                                            <td>{{last}}</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Email:</strong></td>
-                                                            <td>{{email}}</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td><strong>Other request:</strong></td>
-                                                            <td>{{other}}</td>
-                                                        </tr>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </td>
-                                </tr>
+  <body>
+    <table
+      align="center"
+      width="100%"
+      style="font-family: Arial, sans-serif; max-width: 800px"
+    >
+      <tr>
+        <td>
+          <h1 style="color: #000000">
+            *{{name}} {{last}}*, you have received a reservation request
+          </h1>
+          <table
+            align="center"
+            width="100%"
+            style="
+              background-color: #efefef;
+              border-radius: 20px;
+              padding: 2vw;
+              max-width: 800px;
+            "
+          >
+            <tr>
+              <td>
+                <table
+                  align="center"
+                  width="100%"
+                  style="
+                    background-color: white;
+                    border-radius: 20px;
+                    padding: 2vw;
+                  "
+                >
+                  <tr>
+                    <td align="center">
+                      <img
+                        style="width: 15vw; max-width: 100px; height: auto"
+                        src="https://firebasestorage.googleapis.com/v0/b/squeezzed-kuba-cabana.appspot.com/o/logos%2FKuba_Logo_onBlack%20(1).png?alt=media&token=70ffc1ec-feb0-4384-8a3e-7eb0b800435e"
+                        alt="Logo"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table
+                        align="center"
+                        width="100%"
+                        style="
+                          background-color: #f1f1f1;
+                          border-top: 4vw solid #000000;
+                          padding: 2vw;
+                          border-bottom: 1px solid white;
+                          border-radius: 20px;
+                        "
+                      >
+                        <tr>
+                          <td>
+                            <table
+                              align="center"
+                              width="100%"
+                              style="
+                                padding: 1vw;
+                                gap: 2vw;
+                                border-bottom: 6px solid white;
+                              "
+                            >
+                              <tr>
+                                <td
+                                  colspan="2"
+                                  style="
+                                    padding: 1vw 0;
+                                    border-bottom: 6px solid white;
+                                  "
+                                >
+                                  <strong>Event type:</strong> {{eventType}}
+                                </td>
+                              </tr>
+                              <tr>
+                                <td colspan="2" align="center">
+                                  <h3>Event Characteristics</h3>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><strong>Party Size:</strong></td>
+                                <td>{{partySize}}</td>
+                              </tr>
+                              <tr>
+                                <td><strong>Date:</strong></td>
+                                <td>{{date}} {{time}}</td>
+                              </tr>
+                              <tr>
+                                <td><strong>Alternative Date:</strong></td>
+                                <td>{{date}}</td>
+                              </tr>
+                              <tr>
+                                <td><strong>Special Request:</strong></td>
+                                <td>{{special}}</td>
+                              </tr>
+                              <tr>
+                                <td><strong>Budget: $</strong></td>
+                                <td>{{budget}}</td>
+                              </tr>
                             </table>
-                        </td>
-                    </tr>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <table
+                              align="center"
+                              width="100%"
+                              style="
+                                border-radius: 20px;
+                                padding: 1vw;
+                                gap: 2vw;
+                              "
+                            >
+                              <tr>
+                                <td colspan="2" align="center">
+                                  <h3>Data Register</h3>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td><strong>First name:</strong></td>
+                                <td>{{name}}</td>
+                              </tr>
+                              <tr>
+                                <td><strong>Last name:</strong></td>
+                                <td>{{last}}</td>
+                              </tr>
+                              <tr>
+                                <td><strong>Email:</strong></td>
+                                <td>{{email}}</td>
+                              </tr>
+                              <tr>
+                                <td><strong>Other request:</strong></td>
+                                <td>{{other}}</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
                 </table>
-            </td>
-        </tr>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
     </table>
-</body>
-
+  </body>
 </html>
