@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  h1 {
+    font-size: 1.9rem; /* 32px */
+    font-weight: 800;
+  }
+  
+  h2 {
+    font-size: 1.6rem; /* 24px */
+  }
+  
+  h3 {
+    font-size: 1.25rem; /* 20px */
+  }
+  
+  p, li, a, input, textarea, button {
+    font-size: 1.3rem; /* 16px */
+  }
+
+  span {
+    font-size: 0.75rem
+  }
+
+  
+
+  .carousel-container img {
+    -webkit-backface-visibility: hidden; /* Para Safari */
+    backface-visibility: hidden; /* Para otros navegadores */
+  }
+
+  :root {
+    --min-large-screen-width: 1024px;
+  }
+  
+
+  @media not all and (min-resolution: 0.001dpcm) {
+    /* Aplica estilos específicos para los elementos input en Safari */
+    input[type='date'],
+    input[type='time'] {
+      -webkit-appearance: textfield;
+    }
+  }
+
+
+  /* Breakpoint para pantallas pequeñas (sm) - 640px */
+@media (min-width: 640px) {
+  .custom-container {
+    max-height: 5rem;
+  }
+}
+
+/* Breakpoint para pantallas medianas (md) - 768px */
+@media (min-width: 768px) {
+  .custom-image-1 {
+    max-height: 16rem;
+  }
+  .custom-container {
+    max-height: 16rem;
+  }
+}
+
+/* Breakpoint para pantallas grandes (lg) - 1024px */
+@media (min-width: 1024px) {
+  .custom-image-1 {
+    max-height: 20rem;
+  }
+  .custom-container {
+    max-height: 20rem;
+  }
+}
+
+/* Breakpoint para pantallas grandes (xl) - 1280px */
+@media (min-width: 1280px) {
+  .custom-image-1 {
+    max-height: 24rem;
+  }
+  .custom-container {
+    max-height: 24rem;
+  }
+}
+
+
+/* Breakpoint para pantallas grandes (2xl) - 1536px */
+@media (min-width: 1536px) {
+  .custom-image-1 {
+    max-height: 30rem;
+  }
+  .custom-container {
+    max-height: 30rem;
+  }
+}
