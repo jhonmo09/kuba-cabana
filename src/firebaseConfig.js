@@ -10,8 +10,8 @@ const firebaseConfig = {
   projectId: "squeezzed-kuba-cabana",
   storageBucket: "squeezzed-kuba-cabana.appspot.com",
   messagingSenderId: "357411752809",
-  appId: "1:357411752809:web:d7430c2195c209ac218bf8",
-  measurementId: "G-NWM3604L0X",
+  appId: "1:357411752809:web:0217de8463083839218bf8",
+  measurementId: "G-WRGNLDGWH5",
 };
 
 if (!firebase.apps.length) {
