@@ -4,14 +4,14 @@ import "firebase/database";
 import "firebase/analytics";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDmmJK_40f99DXmS81riu27ClEzkXs2nTk",
-    authDomain: "squeezzed-fa161.firebaseapp.com",
-    databaseURL: "https://squeezzed-fa161-default-rtdb.firebaseio.com",
-    projectId: "squeezzed-fa161",
-    storageBucket: "squeezzed-fa161.appspot.com",
-    messagingSenderId: "932996044421",
-    appId: "1:932996044421:web:63fd1294938854091dbbec",
-    measurementId: "G-YC063MKW6F"
+  apiKey: "AIzaSyBH3jZpEIMl3uUDEhZB2rXnBA4tlbRjfRE",
+  authDomain: "squeezzed-kuba-cabana.firebaseapp.com",
+  databaseURL: "https://squeezzed-kuba-cabana-default-rtdb.firebaseio.com",
+  projectId: "squeezzed-kuba-cabana",
+  storageBucket: "squeezzed-kuba-cabana.appspot.com",
+  messagingSenderId: "357411752809",
+  appId: "1:357411752809:web:d7430c2195c209ac218bf8",
+  measurementId: "G-NWM3604L0X",
 };
 
 if (!firebase.apps.length) {
