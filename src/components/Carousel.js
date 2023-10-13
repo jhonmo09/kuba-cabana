@@ -18,7 +18,7 @@ const ImageCarousel = () => {
   };
 
   return (
-    <div className="w-full flex flex-col mt-4 items-center gap-10 text-bold sm:h-full md:pt-12 md:px-24 md:pb-0 md:text-left lg:px-48 bg-black">
+    <div className="w-full flex flex-col mt-4 items-center gap-10 text-bold sm:h-full md:pt-12 md:px-24 md:pb-0 md:text-left lg:px-48 bg-gradient-custom">
       <h1 className="text-center pt-8 md:text-left md:text-4xl text-custom-brown">
         Kuba Cabana Private Events
       </h1>

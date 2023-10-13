@@ -3,52 +3,54 @@
 @tailwind utilities;
 
 body {
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  h1 {
-    font-size: 1.9rem; /* 32px */
-    font-weight: 800;
-  }
-  
-  h2 {
-    font-size: 1.6rem; /* 24px */
-  }
-  
-  h3 {
-    font-size: 1.25rem; /* 20px */
-  }
-  
-  p, li, a, input, textarea, button {
-    font-size: 1.3rem; /* 16px */
-  }
+  font-family: "Nunito", sans-serif;
+  background: url("../../public/static/images/pattern.png");
+}
 
-  span {
-    font-size: 0.75rem
+h1 {
+  font-size: 1.9rem; /* 32px */
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 1.6rem; /* 24px */
+}
+
+h3 {
+  font-size: 1.25rem; /* 20px */
+}
+
+p,
+li,
+a,
+input,
+textarea,
+button {
+  font-size: 1.3rem; /* 16px */
+}
+
+span {
+  font-size: 0.75rem;
+}
+
+.carousel-container img {
+  -webkit-backface-visibility: hidden; /* Para Safari */
+  backface-visibility: hidden; /* Para otros navegadores */
+}
+
+:root {
+  --min-large-screen-width: 1024px;
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  /* Aplica estilos específicos para los elementos input en Safari */
+  input[type="date"],
+  input[type="time"] {
+    -webkit-appearance: textfield;
   }
+}
 
-  
-
-  .carousel-container img {
-    -webkit-backface-visibility: hidden; /* Para Safari */
-    backface-visibility: hidden; /* Para otros navegadores */
-  }
-
-  :root {
-    --min-large-screen-width: 1024px;
-  }
-  
-
-  @media not all and (min-resolution: 0.001dpcm) {
-    /* Aplica estilos específicos para los elementos input en Safari */
-    input[type='date'],
-    input[type='time'] {
-      -webkit-appearance: textfield;
-    }
-  }
-
-
-  /* Breakpoint para pantallas pequeñas (sm) - 640px */
+/* Breakpoint para pantallas pequeñas (sm) - 640px */
 @media (min-width: 640px) {
   .custom-container {
     max-height: 5rem;
@@ -84,7 +86,6 @@ body {
     max-height: 24rem;
   }
 }
-
 
 /* Breakpoint para pantallas grandes (2xl) - 1536px */
 @media (min-width: 1536px) {

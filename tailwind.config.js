@@ -55,7 +55,7 @@ module.exports = {
       },
       backgroundImage: {
         "gradient-custom":
-          "linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%)",
+          "linear-gradient(43deg, rgba(168,27,43,1) 0%, rgba(49,25,50,1) 36%, rgba(25,25,51,1) 100%);",
       },
     },
   },
