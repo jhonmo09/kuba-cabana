@@ -12,7 +12,7 @@ const Header = ({ onSearch }) => {
           <img
             src="/static/images/kuba-logo.png"
             alt="Logo"
-            className="w-24 sm:w-20 md:w-24 lg:w-32"
+            className="w-24 sm:w-20 md:w-24 lg:w-32 shadow-xl"
           />
         </div>
         <div className="w-full flex justify-center">

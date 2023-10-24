@@ -31,7 +31,11 @@ const imageList = [
   ],
   [
     "https://firebasestorage.googleapis.com/v0/b/squeezzed-kuba-cabana.appspot.com/o/imagenes%2F1D3A3906.jpg?alt=media&token=67671013-265a-42d2-b7af-78d9b877ec15",
-    "https://firebasestorage.googleapis.com/v0/b/squeezzed-kuba-cabana.appspot.com/o/imagenes%2F1D3A3923.jpg?alt=media&token=2342a34f-a856-4d96-96b4-0f642754122b",
+    "https://firebasestorage.googleapis.com/v0/b/squeezzed-kuba-cabana.appspot.com/o/imagenes%2FKubaoct-004.jpg?alt=media&token=d2e16d61-b277-404a-ac55-2c4a06fb03ba",
+  ],
+  [
+    "https://firebasestorage.googleapis.com/v0/b/squeezzed-kuba-cabana.appspot.com/o/imagenes%2FKubaoct-008.jpg?alt=media&token=33a04935-4f4a-4deb-9488-4c36ba93ab44",
+    "https://firebasestorage.googleapis.com/v0/b/squeezzed-kuba-cabana.appspot.com/o/imagenes%2FKubaoct-029.jpg?alt=media&token=71ba16f1-12c0-464c-becb-8c408c9d87e1",
   ],
 ];
 

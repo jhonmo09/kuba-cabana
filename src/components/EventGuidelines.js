@@ -42,14 +42,14 @@ const EventGuidelines = () => {
             </p>
           </div>
           <div>
-            <h3 className="font-bold">ADDITIONAL POLICIES: </h3>
+            <h3 className="font-bold">ADDITIONAL POLICIES</h3>
             <p>
               • Any special meal orders (vegetarian, allergies, etc.) should be
               included with the final meal guarantee.
             </p>
             <p>
-              • • Any changes made within three (3) days before the event must
-              be approved by the restaurant management and are subject to
+              • Any changes made within three (3) days before the event must be
+              approved by the restaurant management and are subject to
               additional costs & labor fees
             </p>
             <p>

@@ -48,6 +48,7 @@ module.exports = {
         base: "1.2rem", // 16px
         text: "1.2rem", // 16px (texto normal)
         p: "2rem", // 16px (párrafos)
+        inherit: "inherit",
       },
       fontWeight: {
         h1: 800, // bold
